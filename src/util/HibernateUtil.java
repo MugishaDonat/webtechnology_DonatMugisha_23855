@@ -57,3 +57,12 @@ public class HibernateUtil {
 		}
 	}
 }
+
+
+/**
+ * 
+ */
+/**
+ * @author Donat
+ *
+ */

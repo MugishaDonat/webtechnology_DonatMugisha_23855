@@ -71,5 +71,6 @@ public class MembershipTypeDAO {
     }
 
     // Initialize default membership types (Gold, Silver, Striver)
+     // Initialize default membership types (Gold, Silver, Striver)
   
 }

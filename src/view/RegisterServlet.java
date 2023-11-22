@@ -109,3 +109,13 @@ public class RegisterServlet extends HttpServlet {
         response.sendRedirect("login.html");
     }
 }
+
+
+
+/**
+ * 
+ */
+/**
+ * @author Donat
+ *
+ */

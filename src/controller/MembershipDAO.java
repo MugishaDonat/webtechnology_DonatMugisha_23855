@@ -19,6 +19,7 @@ public class MembershipDAO {
         } catch (Exception e) {
             if (transaction != null) transaction.rollback();
             e.printStackTrace();
+            
         }
     }
 

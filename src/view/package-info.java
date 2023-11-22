@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author Kab
+ * @author Donat
  *
  */
 package view;

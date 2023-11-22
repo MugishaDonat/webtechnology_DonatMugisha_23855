@@ -71,3 +71,13 @@ public class LocationManagementServlet extends HttpServlet {
         }
     }
 }
+
+
+
+/**
+ * 
+ */
+/**
+ * @author Donat
+ *
+ */

@@ -135,3 +135,12 @@ public class User extends Person {
 		this.location = location;
 	}	
 }
+
+
+/**
+ * 
+ */
+/**
+ * @author Donat
+ *
+ */
