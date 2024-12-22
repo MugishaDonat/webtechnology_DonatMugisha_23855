@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Bibliotech</display-name>
+    <welcome-file-list>
+        <welcome-file>signup.html</welcome-file>
+        <welcome-file>signup.htm</welcome-file>
+    </welcome-file-list>
+    <!-- RegisterServlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>view.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    <!-- BookManagementServlet -->
+    <servlet>
+        <servlet-name>BookManagementServlet</servlet-name>
+        <servlet-class>view.BookManagementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookManagementServlet</servlet-name>
+        <url-pattern>/BookManagementServlet</url-pattern>
+    </servlet-mapping>
+    <!-- RequestApprovalServlet -->
+    <servlet>
+        <servlet-name>RequestApprovalServlet</servlet-name>
+        <servlet-class>view.RequestApprovalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestApprovalServlet</servlet-name>
+        <url-pattern>/RequestApprovalServlet</url-pattern>
+    </servlet-mapping>
+    <!-- BorrowingServlet -->
+    <servlet>
+        <servlet-name>BorrowingServlet</servlet-name>
+        <servlet-class>view.BorrowingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowingServlet</servlet-name>
+        <url-pattern>/BorrowingServlet</url-pattern>
+    </servlet-mapping>
+    <!-- LocationManagementServlet -->
+    <servlet>
+        <servlet-name>LocationManagementServlet</servlet-name>
+        <servlet-class>view.LocationManagementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LocationManagementServlet</servlet-name>
+        <url-pattern>/LocationManagementServlet</url-pattern>
+    </servlet-mapping>
+    <!-- LoginServlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>view.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <!-- MembershipManagementServlet -->
+    <servlet>
+        <servlet-name>MembershipManagementServlet</servlet-name>
+        <servlet-class>view.MembershipManagementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MembershipManagementServlet</servlet-name>
+        <url-pattern>/MembershipManagementServlet</url-pattern>
+    </servlet-mapping>
+    <!-- LogoutServlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>view.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ReturnBookServlet -->
+    <servlet>
+        <servlet-name>ReturnBookServlet</servlet-name>
+        <servlet-class>view.ReturnBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnBookServlet</servlet-name>
+        <url-pattern>/ReturnBookServlet</url-pattern>
+    </servlet-mapping>
+    <!-- BookShelfAssignmentServlet -->
+    <servlet>
+        <servlet-name>BookShelfAssignmentServlet</servlet-name>
+        <servlet-class>view.BookShelfAssignmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookShelfAssignmentServlet</servlet-name>
+        <url-pattern>/BookShelfAssignmentServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ShelfRoomAssignmentServlet -->
+    <servlet>
+        <servlet-name>ShelfRoomAssignmentServlet</servlet-name>
+        <servlet-class>view.ShelfRoomAssignmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShelfRoomAssignmentServlet</servlet-name>
+        <url-pattern>/ShelfRoomAssignmentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <servlet-class>com.example.AdminDashboardServlet</servlet-class>
+    </servlet>
+    <!-- Map the servlet to a URL pattern -->
+    <servlet-mapping>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <url-pattern>/admin-dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BooksInRoomServlet</servlet-name>
+        <servlet-class>view.BooksInRoomServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BooksInRoomServlet</servlet-name>
+        <url-pattern>/BooksInRoomServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
